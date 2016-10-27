@@ -1,0 +1,23 @@
+div {
+	background-color: #4DD7FA ;
+	border: solid black;
+	
+}
+
+div.light {
+	background-color: #FEFAC0;
+	text-align: center;
+	border: solid black;
+	padding: 1em 0 1em 2em;
+
+}
+
+h2 {
+	color: #785616;
+	text-align: center;
+}
+div.red {
+	background-color: red;
+	border-color: black;
+	padding:;
+}
