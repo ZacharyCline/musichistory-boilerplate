@@ -1,4 +1,58 @@
-div {
+#contentwrapper {
+	font-family: sans-serif;
+	width: 80;
+}
+
+#Navigation {
+	background-color: #FFB4B0;
+	
+	
+}
+nav {
+	border: 2px solid black;
+	padding: 1px;
+	list-style-type: none;
+}
+body {
+	margin: auto 0;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+#content {
+	padding: 1px;
+}
+
+#options {
+	display: inline-block;
+	background-color: #4DD7FA;
+	border: 2px solid black;
+	width: 25%;
+	padding: 15px;
+	padding-top: 20px;
+	height: 400px;
+
+}
+
+#Songs {
+	display: inline-block;
+	background-color: #FEFAC0;
+	width: 50%;
+	border: 2px solid black;
+	padding: 20px;
+
+}
+
+
+
+
+
+
+/*div {
 	background-color: #4DD7FA ;
 	border: solid black;
 	
@@ -21,3 +75,4 @@ div.red {
 	border-color: black;
 	padding:;
 }
+*/
