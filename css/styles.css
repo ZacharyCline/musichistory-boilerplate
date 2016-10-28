@@ -1,20 +1,17 @@
 #contentwrapper {
 	font-family: sans-serif;
-	width: 80;
+	width: 80%;
 }
 
 #Navigation {
 	background-color: #FFB4B0;
-	
-	
-}
-nav {
+	padding:1px;
 	border: 2px solid black;
-	padding: 1px;
-	list-style-type: none;
+	margin: 10px;	
+	
 }
 body {
-	margin: auto 0;
+	margin: 50px 50px;
 }
 
 nav li {
@@ -31,27 +28,44 @@ nav li {
 	display: inline-block;
 	background-color: #4DD7FA;
 	border: 2px solid black;
-	width: 25%;
-	padding: 15px;
-	padding-top: 20px;
-	height: 400px;
+	width: 20%;
+	padding: 40px 30px;
+	margin: 10px 10px;
+	height: 347px;
+	font-size: 18px;
 
+}
+input[type=range] {
+	width: 175px;
 }
 
 #Songs {
-	display: inline-block;
+	display: block;
+	float: right;
 	background-color: #FEFAC0;
-	width: 50%;
+	width: 65%;
+	margin: 10px 10px;
 	border: 2px solid black;
 	padding: 20px;
-
+	height: 385px;
 }
 
+table{
+	border-collapse: separate;
+	border-spacing: 5px 10px;
+}
 
+select {
+	width: 80%;
+	padding: 10px;
+}
 
-
-
-
+#Button {
+	background-color: #808080;
+	padding:12px 30px;
+	font-size: 20px;
+	margin: 5px 40px;
+}
 /*div {
 	background-color: #4DD7FA ;
 	border: solid black;

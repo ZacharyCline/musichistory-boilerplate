@@ -6,6 +6,10 @@
 </head>
 <body>
 
+
+<!-- Navigation Bar -->
+
+
 <div id = "contentwrapper">
 
 		<div id= "Navigation">
@@ -23,52 +27,70 @@
 
 	<div id= "content">
 
+                
+                <!-- This is the Blue Card Area -->
+
+
 		<div id="options">
-			<label>Song Length</label>
+			<label>Song Length:</label>
 			<input type ="range" min="0" max="10" ></input>
-			<label>Artist</label>
-			<select id = "artistOpt">
-				<option></option>
+			
+			<label>Artist:</label>
+			<select id ="artistOpt" name="Artist">
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+
 			</select>
-			<select id = "albumOpt">
-				<option></option>
+			<label>Album:</label>
+			<select id ="albumOpt" name="Album">
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+				<option value="Option 1">Option 1</option>
+
 			</select>
 
 			<div id = "genreOpt">
+               
 
 				<table>
-					<th>Genre</th>
+					<th>Genre:</th>
 					<tr>
-						<td><input type="checkbox"/></td>
-						<td><input type="checkbox"/></td>
+						<td><input type="checkbox"/>Rock</td>
+						<td><input type="checkbox"/>Pop</td>
 					</tr>
 					<tr>
-						<td><input type="checkbox"/></td>
-						<td><input type="checkbox"/></td>
+						<td><input type="checkbox"/>Blues</td>
+						<td><input type="checkbox"/>Classical</td>
 					</tr>
 					<tr>
-						<td><input type="checkbox"/></td>
-						<td><input type="checkbox"/></td>
+						<td><input type="checkbox"/>Jazz</td>
+						<td><input type="checkbox"/>Hip Hop</td>
 					</tr>
 				</table>
 			</div>
-			<input type="Button" value="filter">
+			<input type="Button" value="filter" id="Button">
 		</div>
 		
+			<!-- This is the Yellow Card -->
+
 
 				<div id="Songs">
-					<h2>Song Name</h2>
+					<!-- <h2>Song Name</h2>
 					<p>Artist | Album | Genre</p>
 					<h2>Song Name</h2>
 					<p>Artist | Album | Genre</p>
 					<h2>Song Name</h2>
 					<p>Artist | Album | Genre</p>
 					<h2>Song Name</h2>
-					<p>Artist | Album | Genre</p>
+					<p>Artist | Album | Genre</p> -->
 				</div>
 	</div>
 
 </div>
+<script type="text/javascript" src="songs.js"></script>
 </body>
 </html>
 
