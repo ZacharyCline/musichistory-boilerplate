@@ -15,16 +15,27 @@
 		<div id= "Navigation">
 			<nav>
 				<ul>
-					<li>View</li>
+					<li><a href="#" id="link-add">Add Music</a></li>
 					<li> | </li>
-					<li>Add</li>
-					<li> | </li>
-					<li>Profile</li>
+					<li><a href="#" id="link-list">List Music</a></li>
 				</ul>
 			</nav>
 		</div>
-	
+		
 
+
+	
+	<section class="hidden" id="add-view">
+	  <label>Song: <input type="text" id="SongInput"> </label>
+	  <label>Artist: <input type="text" id="ArtistInput"> </label>
+	  <label>Album: <input type="text" id="AlbumInput"> </label>
+	  <button id="buttonAdd">Add</button>
+	</section>
+
+
+
+
+<section id="list-view">
 	<div id= "content">
 
                 
@@ -33,28 +44,26 @@
 
 		<div id="options">
 			<label>Song Length:</label>
-			<input type ="range" min="0" max="10" ></input>
+			<input type ="range" min="0" max="10">
 			
-			<label>Artist:</label>
-			<select id ="artistOpt" name="Artist">
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
+			<label for="artist">Artist:</label>
+				<select id ="artistOpt" name="Artist">
+					<option value="Option 1">Option 1</option>
+					<option value="Option 2">Option 1</option>
+					<option value="Option 3">Option 1</option>
+					<option value="Option 4">Option 1</option>
+				</select>
 
-			</select>
-			<label>Album:</label>
-			<select id ="albumOpt" name="Album">
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
-				<option value="Option 1">Option 1</option>
+			<label for="album">Album:</label>
+				<select id ="albumOpt" name="Album">
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+				</select>
 
-			</select>
-
-			<div id = "genreOpt">
                
-
+			<div id = "genreOpt">
 				<table>
 					<th>Genre:</th>
 					<tr>
@@ -77,20 +86,32 @@
 			<!-- This is the Yellow Card -->
 
 
-				<div id="Songs">
-					<!-- <h2>Song Name</h2>
-					<p>Artist | Album | Genre</p>
-					<h2>Song Name</h2>
-					<p>Artist | Album | Genre</p>
-					<h2>Song Name</h2>
-					<p>Artist | Album | Genre</p>
-					<h2>Song Name</h2>
-					<p>Artist | Album | Genre</p> -->
-				</div>
-	</div>
+			<div id="Songs">
+				<!-- <h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p> -->
+			</div>
+		</div>	
+	</section>
+
+
+
+
+	
 
 </div>
+
+
+<!-- THESE ARE ALL OF MY SCRIPT TAGS -->
 <script type="text/javascript" src="songs.js"></script>
+<script type="text/javascript" src="add.js"></script>
+<script type="text/javascript" src="list.js"></script>
+<!-- <script type="text/javascript" src="list.js"></script> -->
 </body>
 </html>
 
